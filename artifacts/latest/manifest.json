@@ -1,0 +1,25 @@
+{
+  "files": [
+    {
+      "path": "baseline_daily_curves.csv",
+      "sha256": "72a96f7e44e1257a4a36f7fdb3818e12ccf3f72286571315d4e35eb705e0c052",
+      "size_bytes": 948976
+    },
+    {
+      "path": "benchmark_metrics.csv",
+      "sha256": "cdcc6e2ddf41c25ca4ce64b3639792740c1d50bc8f8fd699a8655f8ee00e2807",
+      "size_bytes": 2865
+    },
+    {
+      "path": "methodology.json",
+      "sha256": "a111de06a053a0e2e631f21e63edcddcb2bd6e7362d6a552a3817b2d2461a875",
+      "size_bytes": 1218
+    },
+    {
+      "path": "nostra_artifact_commitment.json",
+      "sha256": "f765fef8838468ec0fcb759a14cb284fe4eb699fe2f76671aa2398bf88c34ef4",
+      "size_bytes": 236
+    }
+  ],
+  "schema_version": 1
+}

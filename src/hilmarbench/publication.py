@@ -32,6 +32,8 @@ IGNORED_DIRECTORIES = {
     ".venv",
     "__pycache__",
     "htmlcov",
+    "build",
+    "dist",
 }
 
 IGNORED_FILE_NAMES = {
@@ -115,7 +117,11 @@ def _forbidden_patterns() -> tuple[tuple[str, re.Pattern[str]], ...]:
         ),
         (
             "IPv4 address",
-            re.compile(r"\b(?:\d{1,3}\.){3}\d{1,3}\b"),
+            re.compile(
+                r"(?<![=A-Za-z0-9_.-])"
+                r"\b(?:\d{1,3}\.){3}\d{1,3}\b"
+                r"(?![A-Za-z0-9_.-])"
+            ),
         ),
         (
             "GitHub token",

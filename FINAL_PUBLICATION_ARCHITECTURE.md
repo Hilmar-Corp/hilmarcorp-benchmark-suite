@@ -2,23 +2,34 @@
 
 ## GitHub repository
 
-The public GitHub repository contains the benchmark engine, performance
-metrics, public reference strategies, tests, methodology and controlled
-release artifacts.
+The public GitHub repository contains:
 
-Public reference strategies are code-reproducible.
+- the benchmark and accounting engine;
+- public reference strategies;
+- tests and anti-look-ahead controls;
+- aggregate performance metrics;
+- daily curves for public baselines;
+- versioned controlled artifacts;
+- cryptographic manifests;
+- dependency constraints and governance documentation.
 
-Nostra AI is artifact-verified through aggregate metrics and a SHA-256
-commitment to the retained private evaluation artifact.
+Public reference strategies are code-reproducible and replay-verifiable.
 
-The GitHub repository contains no Nostra time series.
+Nostra AI is artifact-verified rather than open-source.
+
+The GitHub repository contains no Nostra time series or execution trace.
+
+## Exposure conventions
+
+Public benchmarks use exposure between 0% and 100%.
+
+The proprietary Nostra evaluation uses a governed exposure range from -10% to
++100%.
 
 ## HilmarCorp website
 
 The website may display daily Nostra and benchmark equity curves through a
-separate data artifact.
-
-The chart remains daily because Nostra is a daily exposure product.
+separately generated artifact.
 
 The website artifact applies a minimum fourteen-day publication delay and
 contains equity observations only. It contains no positions, explicit daily
@@ -26,14 +37,12 @@ returns, turnover, transaction costs, probabilities or features.
 
 ## Private environment
 
-The private environment retains the complete daily evaluation trace, model
-logic, positions, returns, costs, turnover and research data.
+The private environment retains the complete Nostra evaluation trace, model
+logic, positions, returns, costs, turnover, research data and upstream source
+evidence.
 
 ## Performance convention
 
 CAGR is calculated as:
 
 `final_equity ** (365 / observations) - 1`
-
-All aggregate metrics are calculated from the complete daily evaluation
-trace.

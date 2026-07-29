@@ -79,6 +79,24 @@ costs, probabilities or features.
 
 See `FINAL_PUBLICATION_ARCHITECTURE.md`.
 
+## Institutional reproducibility
+
+Public reference strategies can be replayed from a clean clone using:
+
+    make reproduce
+
+The controlled Python 3.13 dependency environment is recorded in
+`requirements/constraints-py313.txt`.
+
+Public benchmarks use exposure between 0% and 100%. The proprietary Nostra
+evaluation uses a governed range between -10% and +100%.
+
+Formal releases include versioned artifacts, SHA-256 manifests, dependency
+auditing, a CycloneDX SBOM and GitHub Actions evidence.
+
+See `DATA_PROVENANCE.md`, `RELEASE_POLICY.md`, `CHANGE_CONTROL.md` and
+`SUPPLY_CHAIN_SECURITY.md`.
+
 ## Licensing
 
 The software source code, tests and technical documentation are licensed

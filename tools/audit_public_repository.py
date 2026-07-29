@@ -14,6 +14,8 @@ from hilmarbench.publication import (
 ALLOWED_CSV_PATHS = {
     Path("artifacts/latest/baseline_daily_curves.csv"),
     Path("artifacts/latest/benchmark_metrics.csv"),
+    Path("artifacts/releases/v0.1.0/baseline_daily_curves.csv"),
+    Path("artifacts/releases/v0.1.0/benchmark_metrics.csv"),
 }
 
 FORBIDDEN_REPOSITORY_NAME_PATTERNS = (

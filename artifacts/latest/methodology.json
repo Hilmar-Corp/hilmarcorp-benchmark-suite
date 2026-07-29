@@ -19,6 +19,8 @@
     "daily_equity_in_github": false,
     "daily_positions_public": false,
     "daily_returns_public": false,
+    "governed_exposure_maximum": 1.0,
+    "governed_exposure_minimum": -0.1,
     "model_code_in_github": false,
     "status": "artifact-verified",
     "turnover_public": false,
@@ -27,6 +29,8 @@
   },
   "public_baselines": {
     "daily_curves_in_github": true,
+    "exposure_maximum": 1.0,
+    "exposure_minimum": 0.0,
     "status": "code-reproducible"
   },
   "publication_architecture": {

@@ -22,7 +22,7 @@ msgpack==1.2.1
 narwhals==2.24.0
 numpy==2.5.1
 packageurl-python==0.17.6
-packaging==26.2
+packaging==26.3
 pandas==3.0.5
 pip-api==0.0.34
 pip-requirements-parser==32.0.1
